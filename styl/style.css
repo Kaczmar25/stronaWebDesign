@@ -1,0 +1,115 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.705), rgba(255, 255, 255, 0.5)), url('bg-design.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+#gora{
+    margin-top: 100px;
+}
+
+#profilowe{
+    width: 250px;
+    border-radius: 25%;
+    margin-bottom: 25px;
+}
+
+.carousel > .carousel-inner > .carousel-item > img{
+    height: 941px;
+    object-fit: cover;
+}
+
+textarea {
+    resize: none;
+}
+
+i{
+    color: black;
+}
+
+i:hover{
+    color: rgb(80, 80, 80);
+    transition: color 0.5s;
+}
+
+.wrapper {
+position: fixed;
+bottom: 50px;
+right: -370px;
+max-width: 345px;
+width: 100%;
+background: #fff;
+border-radius: 8px;
+padding: 15px 25px 22px;
+transition: right 0.3s ease;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.wrapper.show {
+right: 20px;
+}
+.wrapper header {
+display: flex;
+align-items: center;
+column-gap: 15px;
+}
+header i {
+color: #333;
+font-size: 30px;
+}
+header h2 {
+color: #333;
+font-weight: 500;
+}
+.wrapper .data {
+margin-top: 16px;
+}
+.wrapper .data p {
+color: #333;
+font-size: 16px;
+}
+.data p a {
+color: #333;
+text-decoration: none;
+}
+.data p a:hover {
+text-decoration: underline;
+}
+.wrapper .buttons {
+margin-top: 16px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.buttons .button {
+border: none;
+color: #fff;
+padding: 8px 0;
+border-radius: 4px;
+background: #333;
+cursor: pointer;
+width: calc(100% / 2 - 10px);
+transition: all 0.2s ease;
+}
+.buttons #acceptBtn:hover {
+background-color: #1a1a1a;
+}
+#declineBtn {
+border: 2px solid #333;
+background-color: #fff;
+color: #333;
+}
+#declineBtn:hover {
+background-color: #333;
+color: #fff;
+}
